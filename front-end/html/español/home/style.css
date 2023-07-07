@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #A43CD9;
+    border-radius: 7px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #A4439F;
+}
+
+body{
+    /* background: url('../../../img/Gojo Satoru Wallpaper.jpeg'); */
+     background: url('../../../img/magenta-g2342b6420_1920.jpg'); 
+    cursor: url('../../img/rsz_star01.png'), auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+a, button{
+    cursor: url('../../img/rsz_1white-sparkle-png-transparent-29.png'), auto ;
+    cursor: pointer;
+}
+.navbar_container{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+
+}#logoPic{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+#logo{
+    font-size: larger;
+    
+}
+#navbar{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.first_part{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px
+}
+.left_side{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-weight: 900;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.left_side a{
+    display: flex;
+    background-color: #51355B;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 7px;
+    color: white;
+    width: 100px;
+    justify-content: center;
+    cursor: pointer;
+}
+.right_side img{
+    width: 50%;
+    margin-left: -100px;
+
+}
+.right_side{
+    display: flex;
+    justify-content: right;
+}
+.title{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+/* second part */
+.second-part{
+    background-color: #40214b60;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    margin: 230px 200px 80px 200px;
+}
+
+.text-main h2{
+    font-size: 35px;
+    font-weight: 400 ;
+}
+
+/* third section */
+.third-section{
+    display: flex;
+    justify-content: center;
+    margin: 0 200px 20px 200px;
+    
+    
+}
+
+.card{
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #51355b7c;
+    width: 100%;
+    padding: 5px;
+
+   
+}
+
